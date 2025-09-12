@@ -1,5 +1,7 @@
 # Subnetting Explainer – Interactive
 
+Live demo: https://agent6.github.io/subnetting/
+
 An interactive, single‑file IPv4 subnetting tool. Edit any field (IP, CIDR, or mask) and everything stays in sync. Network vs Host bits are color‑coded in binary visualizations. No dependencies; just open the page.
 
 ## Features
@@ -16,7 +18,9 @@ An interactive, single‑file IPv4 subnetting tool. Edit any field (IP, CIDR, or
 - Or edit the subnet mask; it normalizes to a valid mask and updates CIDR.
 
 ## GitHub Pages
-Host it directly from this repo with GitHub Pages:
+This site is hosted at: https://agent6.github.io/subnetting/
+
+To host your own fork via GitHub Pages:
 - Push this repository to GitHub.
 - In your repo, go to: Settings → Pages.
 - Build and deployment → Source: “Deploy from a branch”.
@@ -47,4 +51,3 @@ Add a screenshot (e.g., `/screenshot.png`) and embed it here:
 
 ## License
 Specify your preferred license (e.g., MIT) by adding a `LICENSE` file.
-
