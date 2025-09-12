@@ -20,14 +20,6 @@ An interactive, single‑file IPv4 subnetting tool. Edit any field (IP, CIDR, or
 ## GitHub Pages
 This site is hosted at: https://agent6.github.io/subnetting/
 
-To host your own fork via GitHub Pages:
-- Push this repository to GitHub.
-- In your repo, go to: Settings → Pages.
-- Build and deployment → Source: “Deploy from a branch”.
-- Branch: `main` (or your default), Folder: `/` (root).
-- Save. Your site will be available at:
-  `https://<your-username>.github.io/<your-repo>/`
-
 ## Usage Notes
 - IPv4 only. CIDR range is `0–32`.
 - Mask edits are validated; non‑contiguous masks are snapped to the closest valid contiguous mask.
@@ -42,12 +34,4 @@ To host your own fork via GitHub Pages:
 - Open `index.html` and modify styles or logic as needed.
 - Key functions: IPv4 parsing/formatting, CIDR↔mask conversion, binary visualization, and subnet math are implemented inline.
 
-## Screenshot (optional)
-Add a screenshot (e.g., `/screenshot.png`) and embed it here:
 
-```md
-![Subnetting Explainer](screenshot.png)
-```
-
-## License
-Specify your preferred license (e.g., MIT) by adding a `LICENSE` file.
